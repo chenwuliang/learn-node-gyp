@@ -1,0 +1,21 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "rebuild": "node-gyp rebuild",
+    "build": "node-gyp clean configure build --verbose --arch=x64",
+    "pre": "node-pre-gyp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "xprofiler": "^1.2.6"
+  },
+  "devDependencies": {
+    "node-pre-gyp": "^0.17.0"
+  }
+}
